@@ -1,6 +1,6 @@
 /*
-[sqrt_Python1.py]
-Copyright(c)[year][tadanohiroyuki]
+[dentaku.cpp]
+Copyright(c)[2021][tadanohiroyuki]
 This software is released under the MIT License.
 http://opensource.org/licenses/mit-license.php
 */
@@ -10,22 +10,22 @@ http://opensource.org/licenses/mit-license.php
 #define PI 3.14
 int main(void)
 {
-	int choice;//‰‰Zq
-	double g, num;//‰Šú’l‚Æ“ü—Í’l
+	int choice;//æ¼”ç®—å­
+	double g, num;//åˆæœŸå€¤ã¨å…¥åŠ›å€¤
 
 	g = 0;
 	while (1)
 	{
-		printf("1:+,2:-,3:*,4:/,5:sin,6:cos,7:tan,8:log,9:ln,0:I—¹,‚©‚ç‘I‘ğ");//‰‰Zq‚Ì“ü—Í
+		printf("1:+,2:-,3:*,4:/,5:sin,6:cos,7:tan,8:log,9:ln,0:çµ‚äº†,ã‹ã‚‰é¸æŠ");//æ¼”ç®—å­ã®å…¥åŠ›
 		printf("\n");
 		scanf("%d", &choice);
 
 		if (choice == 0 || choice > 10)
-			break;//ŒvZI—¹,‡Œv’l‚Ö
+			break;//è¨ˆç®—çµ‚äº†,åˆè¨ˆå€¤ã¸
 
-		printf("”’l=");
+		printf("æ•°å€¤=");
 		scanf("%lf", &num);
-		switch (choice)//‰‰Zˆ— 
+		switch (choice)//æ¼”ç®—å‡¦ç† 
 		{
 		case 1:
 			g += num;
@@ -49,29 +49,29 @@ int main(void)
 			num = tan(num * PI / 180.0);
 			break;
 		case 8:
-			if (num < 0) //^”‚Í0ˆÈã‚Ì‚İ
+			if (num < 0) //çœŸæ•°ã¯0ä»¥ä¸Šã®ã¿
 			{
 				num = 0;
 			}
 			else
 			{
-				num = log10(num);//10‚ğ’ê‚Æ‚·‚élog
+				num = log10(num);//10ã‚’åº•ã¨ã™ã‚‹log
 			}
 				break;
 		case 9:
-			if (num < 0) //^”‚Í0ˆÈã‚Ì‚İ
+			if (num < 0) //çœŸæ•°ã¯0ä»¥ä¸Šã®ã¿
 			{
 				num = 0;
 			}
 			else 
 			{
-				num = log(num);//e‚ğ’ê‚Æ‚·‚élog
+				num = log(num);//eã‚’åº•ã¨ã™ã‚‹log
 			}
 			break;
 		}
 		if (choice > 4 && choice < 10)
 		{
-			printf("ŠÖ”=%f‚Ìˆ— 1:+,2:-,3:*,4:/,‚©‚ç•„†‚ğ‘I‘ği‰Šú’l0‚É’ˆÓIj", num);//ŠÖ”‚Ì”’l‚ğŒˆ‚ß‚½Œã‚Ì‰‰Zq‚ğ‘I‘ğ
+			printf("é–¢æ•°=%fã®å‡¦ç† 1:+,2:-,3:*,4:/,ã‹ã‚‰ç¬¦å·ã‚’é¸æŠï¼ˆåˆæœŸå€¤0ã«æ³¨æ„ï¼ï¼‰", num);//é–¢æ•°ã®æ•°å€¤ã‚’æ±ºã‚ãŸå¾Œã®æ¼”ç®—å­ã‚’é¸æŠ
 			printf("\n");
 			scanf("%d", &choice);
 
@@ -91,9 +91,9 @@ int main(void)
 				break;
 			}
 		}
-		printf("“r’†’l=%f\n", g);
+		printf("é€”ä¸­å€¤=%f\n", g);
 	}
-	printf("‡Œv’l=%f\n", g);
+	printf("åˆè¨ˆå€¤=%f\n", g);
 
 	return 0;
 }

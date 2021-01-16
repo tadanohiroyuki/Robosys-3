@@ -11,4 +11,4 @@
 ③　①②を終えると途中値が表示され再度選択画面が出てくる
 注意:logの真数を0より小さい数値にしてしまった場合は入力値を 0として扱う
 # LICENSE
-[license](https://github.com/tadanohiroyuki/Robosys-3/blob/master/LICENSE)
+[MIT license](https://github.com/tadanohiroyuki/Robosys-3/blob/master/LICENSE)

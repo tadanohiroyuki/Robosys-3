@@ -2,12 +2,14 @@
 ---
 # 使用環境  
 * Visual Studio 2019  
+* Ubuntu 18.04LTS
 * C言語  
 ---
-# Linaxでのコンパイル方法
+# Linaxでのコンパイル方法  
 $ git clone https://github.com/tadanohiroyuki/Robosys-3.git  
-$ gcc dentaku.cpp  
-$ ./a.out  
+$ cd Robosys-3
+$ g++ dentaku.cpp -o denntaku
+$ ./denntaku  
 ---
 # プログラムの内容  
 * 関数電卓のプログラム   

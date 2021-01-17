@@ -5,8 +5,8 @@
 * C言語  
 ---
 # Linaxでのコンパイル方法
-$ git clone https://github.com/tadanohiroyuki/Robosys-3.git
-$ gcc dentaku.cpp
+$ git clone https://github.com/tadanohiroyuki/Robosys-3.git  
+$ gcc dentaku.cpp  
 $ ./a.out  
 ---
 # プログラムの内容  

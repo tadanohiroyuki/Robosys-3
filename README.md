@@ -6,10 +6,12 @@
 * C言語  
 ---
 # Linaxでのコンパイル方法  
+```
 $ git clone https://github.com/tadanohiroyuki/Robosys-3.git  
 $ cd Robosys-3
 $ g++ dentaku.cpp -o denntaku
-$ ./denntaku  
+$ ./denntaku
+```
 ---
 # プログラムの内容  
 * 関数電卓のプログラム   

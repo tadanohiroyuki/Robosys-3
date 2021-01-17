@@ -4,6 +4,11 @@
 * Visual Studio 2019  
 * C言語  
 ---
+# Linaxでのコンパイル方法
+$ git clone https://github.com/tadanohiroyuki/Robosys-3.git
+$ gcc dentaku.cpp
+$ ./a.out  
+---
 # プログラムの内容  
 * 関数電卓のプログラム   
 * 数値、三角関数、logの加減乗除の計算ができる  

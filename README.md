@@ -9,7 +9,7 @@
 ```
 $ git clone https://github.com/tadanohiroyuki/Robosys-3.git  
 $ cd Robosys-3
-$ g++ dentaku.cpp -o denntaku
+$ g++ denntaku.cpp -o denntaku
 $ ./denntaku
 ```
 ---
